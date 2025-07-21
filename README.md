@@ -1,13 +1,35 @@
 # FastMCP QuickCalc Server
 
-A simple calculator MCP (Model Context Protocol) server built with FastMCP.
+🎉 **LIVE DEPLOYMENT**: https://web-production-de9a.up.railway.app/mcp/
+
+A simple calculator MCP (Model Context Protocol) server built with FastMCP and deployed on Railway.
+
+## 🚀 Live Demo
+Your FastMCP server is live and running! You can use it directly in Claude Desktop.
 
 ## Features
 
 - **Add Function**: Add two numbers together
 - **Subtract Function**: Subtract second number from first number
 - **HTTP Transport**: Uses streamable HTTP for easy deployment
-- **Cloud Ready**: Deployable to Railway, Render, or other cloud platforms
+- **Cloud Deployed**: Running 24/7 on Railway
+- **Production Ready**: Configured for reliable operation
+
+## Quick Start with Claude Desktop
+
+Add this to your `claude_desktop_config.json`:
+
+```json
+{
+  "mcpServers": {
+    "quickcalc-mcp-server": {
+      "url": "https://web-production-de9a.up.railway.app/mcp/"
+    }
+  }
+}
+```
+
+Then restart Claude Desktop and you'll have access to `add` and `subtract` tools!
 
 ## Local Development
 
