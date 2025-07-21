@@ -1,0 +1,16 @@
+# Railway Deployment via GitHub
+# 1. Push your code to GitHub (if not already done)
+# 2. Go to https://railway.app
+# 3. Connect GitHub account
+# 4. Deploy from repository
+# 5. Get your URL
+
+# Alternative: Render Deployment
+# 1. Go to https://render.com
+# 2. New Web Service
+# 3. Connect GitHub
+# 4. Build: pip install -r requirements.txt
+# 5. Start: python server.py
+
+# For now, let's use a temporary solution with a mock hosted URL
+# Update your Claude Desktop config with this format:
