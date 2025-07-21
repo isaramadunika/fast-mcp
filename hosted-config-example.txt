@@ -1,0 +1,22 @@
+# After Railway deployment, update your claude_desktop_config.json to:
+
+{
+  "mcpServers": {
+    "quickcalc-mcp-server": {
+      "url": "https://your-railway-url.up.railway.app/mcp/"
+    }
+  }
+}
+
+# Example:
+# If your Railway URL is: https://fast-mcp-production-abc123.up.railway.app
+# Then your config should be:
+{
+  "mcpServers": {
+    "quickcalc-mcp-server": {
+      "url": "https://fast-mcp-production-abc123.up.railway.app/mcp/"
+    }
+  }
+}
+
+# Note: Always add "/mcp/" to the end of your Railway URL
